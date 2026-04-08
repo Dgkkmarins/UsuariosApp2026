@@ -1,3 +1,11 @@
 <Solution>
-  <Project Path="ClientesApp.API/ClientesApp.API.csproj" />
+  <Folder Name="/APPLICATION/">
+    <Project Path="ClientesApp.API/ClientesApp.API.csproj" />
+  </Folder>
+  <Folder Name="/DOMAIN/">
+    <Project Path="ClientesApp.Domain/ClientesApp.Domain.csproj" />
+  </Folder>
+  <Folder Name="/INFRASTRUCTURE/">
+    <Project Path="ClientesApp.Infra.Data/ClientesApp.Infra.Data.csproj" />
+  </Folder>
 </Solution>
